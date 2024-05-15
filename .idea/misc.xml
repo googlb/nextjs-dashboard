@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EasyCodeTableSetting">
+    <option name="tableInfoMap">
+      <map>
+        <entry key="smart_home.t_device">
+          <value>
+            <TableInfoDTO>
+              <option name="comment" value="设备信息基础表" />
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="自增长ID" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="设备拥有者ID，可以是服务供应商ID，也可以是上门人员ID" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="ownerId" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="设备名称" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="name" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="设备品牌" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="brand" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="设备型号" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="model" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="价格" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="price" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="来源,1:商城购买，2：自有仓库，？这个字段有点还没想好，可能用不上" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="source" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="附件id" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="fileId" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="受理时间" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="gmtCreate" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="修改时间" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="gmtModified" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="删除标识：0：未删除 1：已删除" />
+                    <option name="custom" value="false" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="deleteFlag" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="TDevice" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="" />
+              <option name="savePackageName" value="" />
+              <option name="savePath" value="" />
+              <option name="templateGroupName" value="" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
